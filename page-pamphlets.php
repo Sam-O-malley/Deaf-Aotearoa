@@ -1,7 +1,7 @@
 <?php
 
 /*
-	Template Name:page books format
+	Template Name:grid format
 */
 
 ?>

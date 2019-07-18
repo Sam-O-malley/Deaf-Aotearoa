@@ -8,6 +8,14 @@ a {
   text-decoration: none;
 }
 
+#sidebar-container{
+  width:100%;
+  height:20%;
+  border:solid 1px;
+}
+
+
+
 #test-nav{
 width:100%;
 top:auto;
@@ -27,18 +35,17 @@ position: relative;
 }
 
 #donate {
-
-  width: 150px;
-  height: 70px;
+  width: 120px;
+  height: 50px;
   border: solid 1px;
-  margin-left: 30%;
   background-color: #A2C8E0;
   border-radius: 15%;
+  text-align: center;
+
 }
 
 
 .template-book_post{
-  /* border:solid 1px black; */
   text-align: center;
 }
 
@@ -64,6 +71,22 @@ position: relative;
   opacity: 1;
 }
 
-.post-temp,#donate:hover {
+.post-temp:hover {
   opacity: 0.5;
+}
+
+@media screen and (max-width: 600px) and (min-width:320px) {
+
+  #donate{
+    margin-top: 15%;
+    margin-left: -19%;
+    width: 90px;
+  height: 50px;
+
+
+  }
+
+
+
+
 }

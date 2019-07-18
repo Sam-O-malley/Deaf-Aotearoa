@@ -8,12 +8,15 @@
 	
 	<div class="container-fluid header-container">
 		<div class="row">
-			<div class="col-xs-12 col-sm-4">
+			<div class="col-xs-10 col-sm-10">
 				<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
 			</div>
-			<div class="container">
+			<!-- <div class="container-fluid"> -->
+			<div class="col-xs-2 col-sm-2">
 			<a href="/DeafNZ/product/donation/"><button id='donate'>DONATE</button></a>
 			</div>
+			</div>
+			
 		</div>
 	</div>
 	
@@ -36,11 +39,17 @@
 										'walker'            => new WP_Bootstrap_Navwalker(),
 									) );
 									?>
-						</nav>	
-									
+						
+					</nav>	
+					<?php get_sidebar(); ?>
+
 					</div>
-				</div>								
+			
+				</div>	
+											
 		</div> 
+
+
 	
 	
 

@@ -20,8 +20,4 @@
 
 
 
-
-
-
-
 <?php get_footer(); ?>

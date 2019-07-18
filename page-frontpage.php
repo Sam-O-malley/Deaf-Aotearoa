@@ -12,9 +12,7 @@
 	if( have_posts() ):
 		
 		while( have_posts() ): the_post(); ?>
-            <div class="jumbotron text-center">
-                <h1>This is the about/front page</h1>
-            </div>
+          
             
                 <div class="row">
 
@@ -26,8 +24,7 @@
                         </div>
                     </div>
         
-                <div class="col-sm-3"></div>  
-        </div>
+                    
 
 			<hr>
 		
